@@ -1,0 +1,45 @@
+===================[important notes]===================
+*in the 'AUR dependencies' section, the pacman commands refer to the current versions
+ of the packages, you might need to change the names of those packages for them to work.
+
+=====================[Dependencies]====================
+sudo pacman -S git python python-pythondialog python-pyxdg python-keyring python-jinja python-distro python-systemd python-requests python-bcrypt python-gnupg python-pyopenssl
+
+===================[AUR Dependencies]==================
+cd /home/user/Downloads/
+   git clone https://aur.archlinux.org/protonvpn.git 
+   git clone https://aur.archlinux.org/protonvpn-cli.git
+   git clone https://aur.archlinux.org/protonvpn-gui.git
+   git clone https://aur.archlinux.org/python-protonvpn-nm-lib.git
+   git clone https://aur.archlinux.org/python-proton-client.git
+   
+   cd python-proton-client/
+   	  makepkg
+   	  sudo pacman -U python-proton-client-*
+   	  cd ..
+   
+   cd python-protonvpn-nm-lib/
+   	  makepkg
+   	  sudo pacman -U python-protonvpn-nm-lib-*
+   	  cd ..
+  
+   cd protonvpn-cli/
+   	  makepkg
+   	  sudo pacman -U protonvpn-cli-*
+   	  cd ..
+   
+   cd protonvpn-gui/
+   	  makepkg
+   	  sudo pacman -U protonvpn-gui-*
+   	  cd ..
+   
+   cd protonvpn/
+   	  makepkg
+   	  sudo pacman -U protonvpn-*
+	  cd ..
+	
+   rm -rf python-proton-client/
+   rm -rf python-protonvpn-nm-lib/
+   rm -rf protonvpn-cli/
+   rm -rf protonvpn-gui/
+   rm -rf protonvpn/
