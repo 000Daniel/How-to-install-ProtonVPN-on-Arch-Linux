@@ -1,5 +1,5 @@
 ## How to install ProtonVPN on Arch-linux
-
+![image](https://user-images.githubusercontent.com/90350173/148281755-d6406a9a-15a2-4abf-a9b8-f943c899fcf3.png)
 ### Note before installing
    This script uses: sudo, git, pacman, and the Arch/AUR repositories.<br />
    This script was tested only on EndeavourOS(Arch-based)<br />
