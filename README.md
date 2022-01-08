@@ -18,11 +18,12 @@
 ## Manual-Install
     download the `manual-Install-ProtonVPN.txt` file.<br />
     enter the next command into the terminal: `sudo pacman -Syu`<br />
-    and then paste the commands the file contains into the terminal.<br />
+    and then paste the commands that the file contains into the terminal.<br />
 <br />
 <br />
 <br />
 ```diff
 - created by https://github.com/000Daniel
 ```
-Publish/Release dates: 05.01.2022
+Publish date: 08.01.2022
+Release date: 05.01.2022
